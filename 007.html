@@ -1,0 +1,94 @@
+<html>
+<head>
+    <style>
+    	div {
+    		width:600px;
+    		height:130px;
+    		background-color: #555555;
+    		
+    		margin: 10px;
+    	}
+    	div div{
+    		background-color: #cccccc;
+    		display: inline-block;
+    		
+    	}
+
+    	
+    	
+    
+    	body {
+    		margin: 0;
+    		/*width: 850px;*/
+    	}
+    	div#top div {
+    		width: 31%;
+    		height: 108px;
+    		vertical-align: middle;
+    		margin-left: 6px;
+    		margin-right: 0;
+    	}
+
+    	div#middle div {
+    		width: 22%;
+    		vertical-align:top;
+    		/*margin-left: 6px;
+    		margin-right: 0;*/
+    		margin: 6px;
+    	}
+
+    	.odd {
+    		height: 100px;
+    	}
+
+    	.even {
+    		height:75px;
+    	}
+
+    	div#bottom div{
+    		width: 48% ;
+    		vertical-align: bottom;
+    		/*margin-left: 6px;*/
+    		/*margin-right: 6px;*/
+    		margin: 6px;
+    		
+
+    		
+
+    	}
+
+    	div#bottom > div:nth-child(1) {
+    		height: 35px;
+    	}
+
+    	div#bottom > div:nth-child(2){
+    		height: 118px; 
+    	}
+
+    	/*#bottom {
+    		margin-bottom: 0;
+    	}*/
+    	
+    </style>
+</head>
+<body>
+	<div id="top">
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+	<div id="middle">
+	
+		<div class="odd"></div>
+		<div class="even"></div>
+		<div class="odd"></div>
+		<div class="even"></div>
+	</div>
+	<div id="bottom">
+	
+		<div></div><div></div>
+
+		
+	</div>
+</body>
+</html>
